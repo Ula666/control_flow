@@ -1,5 +1,5 @@
 # control flow
-- if, else, elif, if else
+- if, elif, else
 - Conditional statements are used to control the flow of our program
 
 ### examples:
