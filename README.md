@@ -6,19 +6,22 @@
 - if:  
   ```
   if age >= 15:
-    print("Thank you, please proceed to your purchase")```
+    print("Thank you, please proceed to your purchase")
+  ```
   
 - elif: 
     ```
   elif age < 15:
-    print("You're too young to watch this movie")```  
+    print("You're too young to watch this movie")
+  ```  
   
 - else:
     ```
   else:
-    print("something went wrong")```
+    print("something went wrong")
+  ```
   
-## For loops and while loops:
+### For loops and while loops:
 
 
 
