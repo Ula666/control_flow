@@ -54,8 +54,36 @@ for items in shopping_list:
 for items in food_bill.values():
     print("name:", items["name"] + ",", "bill:", items["bill"])
 ```
+- ##Nested loop example:
+```python
+for item in food_bill.values():
+    for name_bill in item.values():
+        print(name_bill)
+```
 
 - ##while loop:
+- we can execute a set of statements as long as a condition is true.
+- Where:
+- Use cases: For example you need to enter your age, the while loop will check if you enter your age correctly (in digits), if so the while loop will end 
+- Use case example:
+```python
+user_prompt = True
+while user_prompt:
+    age = input("please enter your age")
+    if age.isdigit():
+        user_prompt = False
+    else:
+        print("Please enter your age in digits")
+print(f"your age is {age}")
+```
+- simple while loop example:
+```python
+num = 0
+while num < 10:
+    print(f"it's working -> {num}")
+    num += 1
+```
+
 
 
 

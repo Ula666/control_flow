@@ -53,12 +53,42 @@ food_bill = {1: {"name": "James", "bill": "£1"},
 #     print(items)
 
 # print the names and the bill amount for each person
-for items in food_bill.values():
-    print("name:", items["name"] + ",", "bill:", items["bill"])
+# for items in food_bill.values():
+#     print("name:", items["name"] + ",", "bill:", items["bill"])
+#
+# # nested loop to iterate through the nested dict to get the value of bill by name
+# for item in food_bill.values():
+#     for name_bill in item.values():
+#         print(name_bill)
 
+# while loops:
+# syntax: while condition value:
+    # print()
+# num = 0
+# while num < 10: # while true continue, if false stop
+#     print(f"it's working -> {num}")
+#     num += 1
 
+# second iteration
+# num = 0
+# while num < 10: # while true continue, if false stop
+#     print(f"it's working -> {num}")
+#     if num ==4: # if its true the loop ends
+#         break
+#     num += 1
 
+# Use case as the 3rd iteration
+# age = input("please enter you age")
+# print(f"your age is {age}")
 
+user_prompt = True
+while user_prompt:
+    age = input("please enter your age")
+    if age.isdigit(): # checks if user entered age in digits
+        user_prompt = False
+    else:
+        print("Please enter your age in digits")
+print(f"your age is {age}") #this line of code only gets executed if the user enters age in digits
 
-
+# ensure the loop conditions are in your control to avoid going into the iteration
 
