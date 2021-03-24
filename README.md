@@ -21,7 +21,46 @@
     print("something went wrong")
   ```
   
-### For loops and while loops:
+## For loops and while loops:
+- ###are used to iterate through the data
+- ###for loop
+- ###while loop
+- ###data sets
+
+- example without using a loop:
+```python
+shopping_list = ["bread", "eggs", "milk", "orange"]
+print(shopping_list[0]) 
+print(shopping_list[1])
+print(shopping_list[2])
+print(shopping_list[3]) 
+``` 
+
+- for loop syntax example:
+```python
+  for items in shopping_list:
+    print(items)
+```
+  
+- break: 
+```python
+for items in shopping_list:
+    print(items)
+    if items == "milk": 
+        break 
+```
+- looping through dictionary with a list:
+```python
+for items in food_bill.values():
+    print("name:", items["name"] + ",", "bill:", items["bill"])
+```
+
+- ##while loop:
+
+
+
+
+
 
 
 
